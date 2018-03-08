@@ -1,10 +1,6 @@
-a=(input())
-b=(input())
-c=(input())
-if (a > b) and (a > c):
-   largest = a
-elif (b > a) and (b > c):
-   largest = b
-else:
-   largest = c
+alist=[5,10,4,25,18]
+largest=alist[0]
+for large in alist:
+    if large > largest:
+        largest=large
 print(largest)
