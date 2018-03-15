@@ -13,5 +13,5 @@ def main():
 		str=input()
 		remvowels(str)
 	except:
-		print('invalid')
+		print'invalid'
 main()
